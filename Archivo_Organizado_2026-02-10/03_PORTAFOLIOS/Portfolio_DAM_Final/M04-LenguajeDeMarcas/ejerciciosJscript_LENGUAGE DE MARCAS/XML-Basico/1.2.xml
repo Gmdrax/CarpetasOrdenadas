@@ -1,0 +1,37 @@
+<pacientes>
+    <paciente>
+        <nombre>Jose</nombre>
+        <apellidos>Martin</apellidos>
+        <telefono>644510697</telefono>
+        <fecha>
+            <hora>14:20</hora>
+            <dia>04</dia>
+            <mes>03</mes>
+            <anyo>2025</anyo>
+        </fecha>
+    </paciente>
+
+    <paciente>
+        <nombre>Javier</nombre>
+        <apellidos>Pergola</apellidos>
+        <telefono>644510787</telefono>
+        <fecha>
+            <hora>16:00</hora>
+            <dia>01</dia>
+            <mes>07</mes>
+            <anyo>2025</anyo>
+        </fecha>
+    </paciente>
+
+    <paciente>
+        <nombre>Dani</nombre>
+        <apellidos>Chorizo</apellidos>
+        <telefono>644743697</telefono>
+        <fecha>
+            <hora>11:40</hora>
+            <dia>06</dia>
+            <mes>11</mes>
+            <anyo>2025</anyo>
+        </fecha>
+    </paciente>
+</pacientes>

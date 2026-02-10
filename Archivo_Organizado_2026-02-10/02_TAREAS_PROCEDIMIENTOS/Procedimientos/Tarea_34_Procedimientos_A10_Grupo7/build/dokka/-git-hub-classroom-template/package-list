@@ -1,0 +1,27 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.ejercicios////PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/index.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt///PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/index.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m1_iterativa/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m1_iterativa.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m1_recursiva/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m1_recursiva.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m2_iterativa/#kotlin.Double#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m2_iterativa.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m2_recursiva/#kotlin.Double#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m2_recursiva.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m3_iterativa/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m3_iterativa.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m3_recursiva/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m3_recursiva.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m4_iterativa/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m4_iterativa.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/m4_recursiva/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/m4_recursiva.html
+$dokka.location:org.example.ejercicios/Ejercicio_1Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.ejercicios/-ejercicio_1-kt/main.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/readSomething/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/read-something.html
+interfaces
+models
+org.example.ejercicios
+utilities
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio DAM | Completo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <h1>Portfolio Académico</h1>
+            <span class="badge">DAM 1</span>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <div id="modulesGrid" class="modules-grid">
+            
+            <div class="module-card" onclick="showCategory('M03-Programacion')">
+                <span class="module-icon">☕</span>
+                <h2 class="module-title">Programación (M03)</h2>
+                <p class="module-desc">Java, Kotlin, Algoritmia y POO.</p>
+            </div>
+
+            <div class="module-card" onclick="showCategory('M04-LenguajeDeMarcas')">
+                <span class="module-icon">🌐</span>
+                <h2 class="module-title">Lenguaje de Marcas (M04)</h2>
+                <p class="module-desc">HTML, XML, CSS y Estructura Web.</p>
+            </div>
+
+            <div class="module-card" onclick="showCategory('M02-BasesDeDatos')">
+                <span class="module-icon">🗄️</span>
+                <h2 class="module-title">Bases de Datos (M02)</h2>
+                <p class="module-desc">SQL, MySQL, Diseño Relacional.</p>
+            </div>
+
+        </div>
+
+        <div id="projectList" class="project-list-section">
+            <div class="list-header">
+                <button class="back-btn" onclick="goBack()">← Volver a Asignaturas</button>
+                <h2 id="categoryTitle" style="margin:0;">Proyectos</h2>
+            </div>
+            <div id="listContent">
+                </div>
+        </div>
+
+    </main>
+
+    <script>
+        // CONFIGURACIÓN: Aquí definimos qué carpetas reales tienes en tu Portfolio-DAM-FINAL
+        const portfolioData = {
+            "M03-Programacion": [
+                { name: "01-Geometria-Basica", desc: "Cálculos de áreas y perímetros." },
+                { name: "02-Arrays-Y-Estadistica", desc: "Manejo de colecciones y medias." },
+                { name: "03-Gestion-Cine", desc: "Sistema de reservas de butacas." },
+                { name: "04-Utilidades-Validacion", desc: "Librería de validación de datos." },
+                { name: "05-Logica-Tablero", desc: "Juegos de matriz y posicionamiento." },
+                { name: "06-Maquina-Expendedora-v2", desc: "Simulación de venta con POO." },
+                { name: "08-Recursividad", desc: "Algoritmos recursivos complejos." },
+                { name: "09-Ordenacion-Matrices", desc: "Algorithms de sorting y búsqueda." },
+                { name: "10-Proyecto-Clases", desc: "Arquitectura de clases avanzada." }
+            ],
+            "M04-LenguajeDeMarcas": [
+                { name: "HTML-DOM", desc: "Manipulación del DOM con JS." },
+                { name: "XML-Basico", desc: "Estructuras de datos XML." },
+                { name: "Proyecto-XSLT-Tasks", desc: "Transformación de datos XML." },
+                { name: "Web-Datos", desc: "Presentación web de información." }
+            ],
+            "M02-BasesDeDatos": [
+                // Añade aquí carpetas si tienes alguna en M02
+                { name: "Ejercicios-SQL", desc: "Consultas y Scripts (Ejemplo)" } 
+            ]
+        };
+
+        function showCategory(categoryId) {
+            // Ocultar Grid, Mostrar Lista
+            document.getElementById('modulesGrid').style.display = 'none';
+            document.getElementById('projectList').style.display = 'block';
+            
+            // Actualizar Título
+            document.getElementById('categoryTitle').textContent = categoryId;
+
+            // Renderizar Lista
+            const list = document.getElementById('listContent');
+            list.innerHTML = '';
+
+            const projects = portfolioData[categoryId] || [];
+
+            if (projects.length === 0) {
+                list.innerHTML = '<p style="text-align:center; color:#999;">No hay proyectos indexados aún.</p>';
+                return;
+            }
+
+            projects.forEach(proj => {
+                // Construir la ruta relativa real
+                // IMPORTANTE: En GitHub, esto abrirá la carpeta del código.
+                const path = `${categoryId}/${proj.name}`;
+
+                const item = document.createElement('div');
+                item.className = 'project-item';
+                item.innerHTML = `
+                    <div class="folder-icon">📁</div>
+                    <div class="project-info">
+                        <span class="project-name">${proj.name.replace(/-/g, ' ')}</span>
+                        <span class="project-sub">${proj.desc}</span>
+                    </div>
+                    <a href="${path}" class="btn-code" target="_blank">Ver Código</a>
+                `;
+                list.appendChild(item);
+            });
+        }
+
+        function goBack() {
+            document.getElementById('projectList').style.display = 'none';
+            document.getElementById('modulesGrid').style.display = 'grid';
+        }
+    </script>
+</body>
+</html>

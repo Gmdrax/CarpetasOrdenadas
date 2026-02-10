@@ -1,0 +1,46 @@
+Corrige el siguiente código que define diferentes XML ( no es un XML)
+
+
+   <corredor posicio=1>Manel Roure</corredor>
+
+
+   <coche electrico>Tesla</coche>
+
+
+   <coche tipo combustible=”gasolina”>Seat Ibiza</coche>
+
+
+   <empleado cargo="recepción" cargo="contabilidad">Jordi Ros</empleado>
+  
+
+
+
+
+   <corredor posicio = "1"> Manel Roure </corredor>
+
+
+   <coche tipo = "electrico"> Tesla </coche>
+
+
+   <coche tipoCombustible = "gasolina"> Seat Ibiza </coche>
+
+
+   <empleado cargo = "recepción, contabilidad"> Jordi Ros </empleado>
+
+
+Escribe un código xml equivalente utilizando solo una etiqueta:
+
+
+   <coche>
+       <marca>Seat</marca>
+       <color>Rojo</color>
+       <matricula>B3456L</matricula>
+       <conductor>Jorge</conductor>
+       <conductor>Maria</conductor>
+       <alquilado>
+           <inicio>12/09/2023</inicio>
+           <fin>24/09/2023</fin>
+       </alquilado>
+    <coche>
+
+   <cocheAlquilado marca = "seat" color = rojo matricula = "B345L" conductors = "Jorge, Maria" inicio = "12/09/2023" fin = "24/09/2023"></cocheAlquilado>

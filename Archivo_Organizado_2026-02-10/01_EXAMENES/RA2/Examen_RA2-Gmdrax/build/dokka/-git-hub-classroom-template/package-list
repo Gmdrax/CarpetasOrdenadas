@@ -1,0 +1,40 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/-git-hub-classroom-template/[root]/index.html
+$dokka.location:/Ejercicio3Kt///PointingToDeclaration/-git-hub-classroom-template/[root]/-ejercicio3-kt/index.html
+$dokka.location:/Ejercicio3Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/[root]/-ejercicio3-kt/main.html
+$dokka.location:/Ejercicio3Kt/mostrar/#kotlin.Array[kotlin.Array[kotlin.Char]]/PointingToDeclaration/-git-hub-classroom-template/[root]/-ejercicio3-kt/mostrar.html
+$dokka.location:/Ejercicio3Kt/reservar/#java.util.Scanner#kotlin.Array[kotlin.Array[kotlin.Char]]/PointingToDeclaration/-git-hub-classroom-template/[root]/-ejercicio3-kt/reservar.html
+$dokka.location:/Ejercicio3Kt/vaiciar/#kotlin.Array[kotlin.Array[kotlin.Char]]/PointingToDeclaration/-git-hub-classroom-template/[root]/-ejercicio3-kt/vaiciar.html
+$dokka.location:controllers////PointingToDeclaration/-git-hub-classroom-template/controllers/index.html
+$dokka.location:controllers/Ejercicio2Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio2-kt/index.html
+$dokka.location:controllers/Ejercicio2Kt/añadirVideo/#kotlin.String#kotlin.Int#kotlin.Int#java.util.ArrayList[controllers.Video]/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio2-kt/añadir-video.html
+$dokka.location:controllers/Ejercicio2Kt/calcularmedia/#java.util.ArrayList[controllers.Video]/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio2-kt/calcularmedia.html
+$dokka.location:controllers/Ejercicio2Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio2-kt/main.html
+$dokka.location:controllers/Ejercicio2Kt/menu/#java.util.Scanner#java.util.ArrayList[controllers.Video]/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio2-kt/menu.html
+$dokka.location:controllers/Ejercicio2Kt/videoConMasVisitas/#kotlin.Int#java.util.ArrayList[controllers.Video]/PointingToDeclaration/-git-hub-classroom-template/controllers/-ejercicio2-kt/video-con-mas-visitas.html
+$dokka.location:controllers/Video///PointingToDeclaration/-git-hub-classroom-template/controllers/-video/index.html
+$dokka.location:controllers/Video/Video/#kotlin.String#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-video/-video.html
+$dokka.location:controllers/Video/getDuradaMinuts/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-video/get-durada-minuts.html
+$dokka.location:controllers/Video/getTitol/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-video/get-titol.html
+$dokka.location:controllers/Video/getVisualitzacions/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-video/get-visualitzacions.html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.controllers////PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/index.html
+$dokka.location:org.example.controllers/Ejercicio1Kt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio1-kt/index.html
+$dokka.location:org.example.controllers/Ejercicio1Kt/invertirFrase/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio1-kt/invertir-frase.html
+$dokka.location:org.example.controllers/Ejercicio1Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio1-kt/main.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/leerEntero/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/leer-entero.html
+$dokka.location:utilities/MyUtilsKt/leerEnteroConMensaje/#java.util.Scanner#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/leer-entero-con-mensaje.html
+controllers
+interfaces
+models
+org.example.controllers
+utilities
+

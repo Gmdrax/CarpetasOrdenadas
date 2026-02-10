@@ -1,0 +1,35 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.controllers////PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/index.html
+$dokka.location:org.example.controllers/Client///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/index.html
+$dokka.location:org.example.controllers/Client/Client/#kotlin.Int#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/-client.html
+$dokka.location:org.example.controllers/Client/getAdreca/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/get-adreca.html
+$dokka.location:org.example.controllers/Client/getCodi/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/get-codi.html
+$dokka.location:org.example.controllers/Client/getCognoms/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/get-cognoms.html
+$dokka.location:org.example.controllers/Client/getDN/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/get-d-n.html
+$dokka.location:org.example.controllers/Client/getEmail/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/get-email.html
+$dokka.location:org.example.controllers/Client/getNom/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-client/get-nom.html
+$dokka.location:org.example.controllers/MainKt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/index.html
+$dokka.location:org.example.controllers/MainKt/altaClient/#java.io.File#kotlin.collections.List[org.example.controllers.Client]/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/alta-client.html
+$dokka.location:org.example.controllers/MainKt/consultarCodi/#kotlin.collections.List[org.example.controllers.Client]#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/consultar-codi.html
+$dokka.location:org.example.controllers/MainKt/consultarPosicio/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/consultar-posicio.html
+$dokka.location:org.example.controllers/MainKt/esborrarClient/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/esborrar-client.html
+$dokka.location:org.example.controllers/MainKt/llistatClients/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/llistat-clients.html
+$dokka.location:org.example.controllers/MainKt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/main.html
+$dokka.location:org.example.controllers/MainKt/menu/#kotlin.Int#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/menu.html
+$dokka.location:org.example.controllers/MainKt/modificarClient/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/modificar-client.html
+$dokka.location:org.example.controllers/MainKt/mostrarOpciones/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/mostrar-opciones.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/guardarClientes/#java.io.File#kotlin.collections.List[[Error type: Unresolved type for Client]]/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/guardar-clientes.html
+interfaces
+models
+org.example.controllers
+utilities
+

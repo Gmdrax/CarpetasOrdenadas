@@ -1,0 +1,42 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:controllers////PointingToDeclaration/-git-hub-classroom-template/controllers/index.html
+$dokka.location:controllers/Exercici2Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici2-kt/index.html
+$dokka.location:controllers/Exercici2Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici2-kt/main.html
+$dokka.location:controllers/Exercici3Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici3-kt/index.html
+$dokka.location:controllers/Exercici3Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici3-kt/main.html
+$dokka.location:controllers/Exercici4Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici4-kt/index.html
+$dokka.location:controllers/Exercici4Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici4-kt/main.html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.controllers////PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/index.html
+$dokka.location:org.example.controllers/Ejercicio1Kt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio1-kt/index.html
+$dokka.location:org.example.controllers/Ejercicio1Kt/calcularIVA/#kotlin.Float#kotlin.String#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio1-kt/calcular-i-v-a.html
+$dokka.location:org.example.controllers/Ejercicio1Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio1-kt/main.html
+$dokka.location:org.example.controllers/tramoIva///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/tramo-iva/index.html
+$dokka.location:org.example.controllers/tramoIva/getDataInici/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/tramo-iva/get-data-inici.html
+$dokka.location:org.example.controllers/tramoIva/getExempt/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/tramo-iva/get-exempt.html
+$dokka.location:org.example.controllers/tramoIva/getGeneral/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/tramo-iva/get-general.html
+$dokka.location:org.example.controllers/tramoIva/getReduit/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/tramo-iva/get-reduit.html
+$dokka.location:org.example.controllers/tramoIva/getSuperReduit/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/tramo-iva/get-super-reduit.html
+$dokka.location:org.example.controllers/tramoIva/tramoIva/#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/tramo-iva/tramo-iva.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/demanarNumeroEnterFinsAlQuatremil/#java.util.Scanner#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/demanar-numero-enter-fins-al-quatremil.html
+$dokka.location:utilities/MyUtilsKt/demanarString/#java.util.Scanner#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/demanar-string.html
+$dokka.location:utilities/MyUtilsKt/mostrarResultatString/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/mostrar-resultat-string.html
+$dokka.location:utilities/MyUtilsKt/obrirScanner/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/obrir-scanner.html
+$dokka.location:utilities/MyUtilsKt/roman/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/roman.html
+$dokka.location:utilities/MyUtilsKt/tancarScanner/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/tancar-scanner.html
+$dokka.location:utilities/MyUtilsKt/titol/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/titol.html
+$dokka.location:utilities/MyUtilsKt/validarSuperusuari/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/validar-superusuari.html
+controllers
+interfaces
+models
+org.example.controllers
+utilities
+

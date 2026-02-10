@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 5 - Ajedrez</title>
+    <style>
+        
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0; }
+        
+        
+        #tablero {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 5px solid #333;
+        }
+
+        
+        .celda {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: sans-serif;
+            box-sizing: border-box; 
+        }
+    </style>
+</head>
+<body>
+
+    <div id="tablero"></div>
+
+    <script>
+        const tablero = document.getElementById("tablero");
+
+        //bucle que crea las casillas dentro del tablero
+        for (let i = 0; i < 64; i++) {
+            let celda = document.createElement("div");
+            celda.classList.add("celda");
+
+            //calcular fila y columna
+            let fila = Math.floor(i / 8);
+            let columna = i % 8;
+
+            //condicional que coje si la suma de fila + columna es par, es un color. Si es impar, el otro
+            if ((fila + columna) % 2 === 0) {
+                celda.style.backgroundColor = "white";
+                celda.style.color = "black";
+            } else {
+                celda.style.backgroundColor = "black"; 
+                celda.style.color = "white";
+            }
+
+            
+
+            //ponemos las fichas en las filas que les toca segun el la do del ablero 
+            if (columna < 2) {
+                celda.textContent = "O"; 
+            }
+            
+            else if (columna > 5) {
+                celda.textContent = "X";
+            }
+
+            
+            tablero.appendChild(celda);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:////PointingToDeclaration/-git-hub-classroom-template/[root]/index.html
+$dokka.location:/Exercici5Kt///PointingToDeclaration/-git-hub-classroom-template/[root]/-exercici5-kt/index.html
+$dokka.location:/Exercici5Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/[root]/-exercici5-kt/main.html
+$dokka.location:/Exercici5Kt/sumaElements/#kotlin.Array[kotlin.Int]/PointingToDeclaration/-git-hub-classroom-template/[root]/-exercici5-kt/suma-elements.html
+$dokka.location:controllers////PointingToDeclaration/-git-hub-classroom-template/controllers/index.html
+$dokka.location:controllers/Exercici1Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici1-kt/index.html
+$dokka.location:controllers/Exercici1Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici1-kt/main.html
+$dokka.location:controllers/Exercici2Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici2-kt/index.html
+$dokka.location:controllers/Exercici2Kt/incrementarNumero/#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici2-kt/incrementar-numero.html
+$dokka.location:controllers/Exercici2Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici2-kt/main.html
+$dokka.location:controllers/Exercici3Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici3-kt/index.html
+$dokka.location:controllers/Exercici3Kt/incrementarArray/#kotlin.Array[kotlin.Int]#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici3-kt/incrementar-array.html
+$dokka.location:controllers/Exercici3Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici3-kt/main.html
+$dokka.location:controllers/Exercici3Kt/readArrayInt/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici3-kt/read-array-int.html
+$dokka.location:controllers/Exercici4Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici4-kt/index.html
+$dokka.location:controllers/Exercici4Kt/esPrefix/#kotlin.String#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici4-kt/es-prefix.html
+$dokka.location:controllers/Exercici4Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici4-kt/main.html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/llegirFloats/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/llegir-floats.html
+$dokka.location:utilities/MyUtilsKt/mitjana/#kotlin.Array[kotlin.Float]/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/mitjana.html
+$dokka.location:utilities/MyUtilsKt/readInt/#java.util.Scanner#kotlin.String#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/read-int.html
+$dokka.location:utilities/MyUtilsKt/sumaArrayFloat/#kotlin.Array[kotlin.Float]/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/suma-array-float.html
+controllers
+interfaces
+models
+utilities
+

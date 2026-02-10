@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Teclado númerico</title>
+    <style>
+    .tecla{
+        width: 60px;
+        height: 60px;
+        background-color: aqua;
+        color: blueviolet;
+        font-size: 40px;
+
+    }
+    #contenedor{
+        display: flex;
+        width: auto;
+        gap:10px ;
+        flex-wrap: wrap;
+    }
+        
+
+
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo">Ejercicio 1 - Teclado númerico</h1>
+    <div id="contenedor">
+          
+    </div>
+   
+    <script>
+          
+
+        
+    let contenedor = document.getElementById("contenedor");
+    for (var i =1; i <10 ; i++){
+    let elemento = document.createElement("div");
+    lemento.textContent = i; 
+    elemento.className = "tecla";
+               
+    if(i %2 == 0){
+
+    elemento.style.backgroundColor="orange";
+            
+    }
+
+    contenedor.appendChild(elemento);
+
+    }
+        
+    </script>
+ </body>
+</html>

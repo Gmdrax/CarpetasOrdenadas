@@ -1,0 +1,43 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.controllers////PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/index.html
+$dokka.location:org.example.controllers/EstadoCompra///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-estado-compra/index.html
+$dokka.location:org.example.controllers/EstadoCompra/EstadoCompra/#kotlin.collections.MutableList[org.example.controllers.InfoBillete]#kotlin.Double#kotlin.Boolean/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-estado-compra/-estado-compra.html
+$dokka.location:org.example.controllers/EstadoCompra/getFinalizada/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-estado-compra/get-finalizada.html
+$dokka.location:org.example.controllers/EstadoCompra/getListaBilletes/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-estado-compra/get-lista-billetes.html
+$dokka.location:org.example.controllers/EstadoCompra/getTotalAPagar/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-estado-compra/get-total-a-pagar.html
+$dokka.location:org.example.controllers/InfoBillete///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-info-billete/index.html
+$dokka.location:org.example.controllers/InfoBillete/InfoBillete/#kotlin.String#kotlin.Double#kotlin.Int#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-info-billete/-info-billete.html
+$dokka.location:org.example.controllers/InfoBillete/getNombre/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-info-billete/get-nombre.html
+$dokka.location:org.example.controllers/InfoBillete/getPrecioBase/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-info-billete/get-precio-base.html
+$dokka.location:org.example.controllers/InfoBillete/getPrecioFinal/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-info-billete/get-precio-final.html
+$dokka.location:org.example.controllers/InfoBillete/getZona/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-info-billete/get-zona.html
+$dokka.location:org.example.controllers/MainKt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/index.html
+$dokka.location:org.example.controllers/MainKt/calcularTotal/#kotlin.collections.List[org.example.controllers.InfoBillete]/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/calcular-total.html
+$dokka.location:org.example.controllers/MainKt/crearBillete/#kotlin.Int#kotlin.Int#kotlin.collections.Map[kotlin.Int,kotlin.Double]/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/crear-billete.html
+$dokka.location:org.example.controllers/MainKt/demanarOpcio/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/demanar-opcio.html
+$dokka.location:org.example.controllers/MainKt/demanarZona/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/demanar-zona.html
+$dokka.location:org.example.controllers/MainKt/ejecutarMaquina/#java.util.Scanner#kotlin.collections.Map[kotlin.Int,kotlin.Double]/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/ejecutar-maquina.html
+$dokka.location:org.example.controllers/MainKt/gestionarPago/#java.util.Scanner#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/gestionar-pago.html
+$dokka.location:org.example.controllers/MainKt/gestionarTicket/#java.util.Scanner#kotlin.collections.List[org.example.controllers.InfoBillete]#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/gestionar-ticket.html
+$dokka.location:org.example.controllers/MainKt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/main.html
+$dokka.location:org.example.controllers/MainKt/mostrarDetalleSeleccion/#org.example.controllers.InfoBillete/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/mostrar-detalle-seleccion.html
+$dokka.location:org.example.controllers/MainKt/mostrarMenuPrincipal/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/mostrar-menu-principal.html
+$dokka.location:org.example.controllers/MainKt/obrirScanner/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/obrir-scanner.html
+$dokka.location:org.example.controllers/MainKt/preguntarSeguir/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/preguntar-seguir.html
+$dokka.location:org.example.controllers/MainKt/procesarSesionCliente/#java.util.Scanner#org.example.controllers.EstadoCompra#kotlin.collections.Map[kotlin.Int,kotlin.Double]/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/procesar-sesion-cliente.html
+$dokka.location:org.example.controllers/MainKt/tancarScanner/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/tancar-scanner.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/readSomething/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/read-something.html
+interfaces
+models
+org.example.controllers
+utilities
+

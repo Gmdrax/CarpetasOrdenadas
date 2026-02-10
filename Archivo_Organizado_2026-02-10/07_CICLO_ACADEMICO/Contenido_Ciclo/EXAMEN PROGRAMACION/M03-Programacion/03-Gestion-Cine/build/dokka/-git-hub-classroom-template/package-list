@@ -1,0 +1,37 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:controllers////PointingToDeclaration/-git-hub-classroom-template/controllers/index.html
+$dokka.location:controllers/ExerciciKt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici-kt/index.html
+$dokka.location:controllers/ExerciciKt/buidarSala/#kotlin.Array[kotlin.Array[kotlin.String]]/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici-kt/buidar-sala.html
+$dokka.location:controllers/ExerciciKt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici-kt/main.html
+$dokka.location:controllers/ExerciciKt/menu/#java.util.Scanner#kotlin.Array[kotlin.Array[kotlin.String]]/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici-kt/menu.html
+$dokka.location:controllers/ExerciciKt/reservarButaca/#kotlin.Array[kotlin.Array[kotlin.String]]#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici-kt/reservar-butaca.html
+$dokka.location:controllers/ExerciciKt/visualizarSala/#kotlin.Array[kotlin.Array[kotlin.String]]/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici-kt/visualizar-sala.html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.controllers////PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/index.html
+$dokka.location:org.example.controllers/Exercici1Kt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-exercici1-kt/index.html
+$dokka.location:org.example.controllers/Exercici1Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-exercici1-kt/main.html
+$dokka.location:org.example.controllers/Punt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-punt/index.html
+$dokka.location:org.example.controllers/Punt/Punt/#kotlin.Float#kotlin.Float/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-punt/-punt.html
+$dokka.location:org.example.controllers/Punt/getX/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-punt/get-x.html
+$dokka.location:org.example.controllers/Punt/getY/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-punt/get-y.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/abrirScanner/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/abrir-scanner.html
+$dokka.location:utilities/MyUtilsKt/cerrarScanner/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/cerrar-scanner.html
+$dokka.location:utilities/MyUtilsKt/escalarPunto/#org.example.controllers.Punt#kotlin.Float/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/escalar-punto.html
+$dokka.location:utilities/MyUtilsKt/imprimirMensaje/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/imprimir-mensaje.html
+$dokka.location:utilities/MyUtilsKt/mostraPunt/#org.example.controllers.Punt/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/mostra-punt.html
+$dokka.location:utilities/MyUtilsKt/moverPunto/#org.example.controllers.Punt#kotlin.Float#kotlin.Float/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/mover-punto.html
+$dokka.location:utilities/MyUtilsKt/verificarPuntoIgual/#org.example.controllers.Punt#kotlin.Float#kotlin.Float/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/verificar-punto-igual.html
+controllers
+interfaces
+models
+org.example.controllers
+utilities
+

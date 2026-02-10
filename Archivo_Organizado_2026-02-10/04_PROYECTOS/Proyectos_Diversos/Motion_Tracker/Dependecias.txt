@@ -1,0 +1,19 @@
+
+Motion_Track_Close
+
+pip install opencv-python
+pip install mediapipe
+pip install pyautogui
+pip install numpy 
+
+Motion_Track_Raton
+
+pip install opencv-python
+pip install mediapipe
+pip install pyautogui
+pip install numpy 
+
+Motion_Track_Mano
+
+pip install opencv-python
+pip install mediapipe

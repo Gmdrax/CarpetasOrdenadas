@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="GM-PROJECT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/GM-PROJECT/JUEGO.zip!/" />
+      <root url="jar://$PROJECT_DIR$/GM-PROJECT/CODIGO.zip!/" />
+      <root url="jar://$PROJECT_DIR$/GM-PROJECT/juegos.zip!/" />
+      <root url="jar://$PROJECT_DIR$/GM-PROJECT/Cibercity-20230525T061923Z-001.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

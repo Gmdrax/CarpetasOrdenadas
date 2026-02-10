@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#" class="logo">Página Web</a>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item"><a href="#" class="navbar-link">Inicio</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link">Acerca de</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link">Servicios</a></li>
+                    <li class="navbar-item"><a href="#" class="navbar-link">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">CIBERCITY</h1>
+                <p class="hero-subtitle">GERARD , MIKEL , UNAI , HUGO , ALEX</p>
+                <a href="#" class="button">Leer más</a>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">HISTORIA</h2>
+                <p class="section-text">Dani després de fer els seus primer amics és influenciat per molta gent en xarxes socials per a fer mal a diferents persones sense adonar-se del que està fent tot culmina quan les males influències li convencen d'implantar-se un xip amb la ment d'un ciberdelinqüent i a partir d'això es torna l'assassí més gran de la història de Nova Barcelona.
+</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2 class="section-title">Introduccions</h2>
+                <div class="service">
+                    <h3 class="service-title">Introducció 1</h3>
+                    <p class="service-description">La història comença en una la ciutat de Nova Barcelona en el 2070, on un jove anomenat Dani arriba a la ciutat on després de caminar com un nòmada amb el seu antic grup d'amics, els quals havien estat arrestats per la policia.
+</p>
+                </div>
+                <div class="service">
+                    <h3 class="service-title">Introducció 2</h3>
+                    <p class="service-description">Arriba a la ciutat amb la intenció de començar una nova vida, però les coses no seran tan fàcils com Dani pensa.
+</p>
+                </div>
+                <div class="service">
+                    <h3 class="service-title">Introducció 3</h3>
+                    <p class="service-description">En arribar a la ciutat et trobes amb un control policial on et paren
+</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <h1 id="titulo-escena"></h1>
+            <p id="descripcion-escena"></p>
+            <div id="opciones-escena"></div>
+        </div>
+        <button id="boton-atras" onclick="volver_atras()">Volver Atrás</button>
+    
+        <script src="Codigo.js"></script>
+        <script src="Escenas.js"></script>
+
+        <section class="contact">
+            <div class="container">
+                <h2 class="section-title">Contáctanos</h2>
+                <form class="contact-form">
+                    <input type="text" class="contact-form-input" placeholder="Nombre">
+                    <input type="email" class="contact-form-input" placeholder="Correo electrónico">
+                    <textarea class="contact-form-input" placeholder="Mensaje"></textarea>
+                    <button type="submit" class="button">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-text">&copy; 2023 GMF. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

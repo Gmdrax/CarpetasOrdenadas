@@ -1,0 +1,41 @@
+<receptes>
+    <recepta>
+        <nom>Patates Fregides</nom>
+        <fotografia>patates.png</fotografia>
+        <ingredients>
+            <ingredient>0li</ingredient>
+            <ingredient>Patates</ingredient>
+            <ingredient>Sal</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="1">Es posa l'oli a escalfar</pas>
+            <pas numero="2">Mentrestant pelen i tallen les pata</pas>
+            <pas numero="3">Quan l'oli estigui ben calent es po</pas>
+            <pas numero="4">Quan les patates agafin el color de</pas>
+            <pas numero="5">Opcionalment es poden posar les pat</pas>
+            <pas numero="6">Abans de servir s'espolvoreigen amb</pas>
+        </preparacio>
+    </recepta>
+    <recepta>
+        <nom>Arros negre</nom>
+        <ingredients>
+            <ingredient>Sipions</ingredient>
+            <ingredient>Arros</ingredient>
+            <ingredient>Ceba</ingredient>
+            <ingredient>Tomaquet</ingredient>
+            <ingredient>Alls</ingredient>
+            <ingredient>Pebrot tendre</ingredient>
+            <ingredient>Aigua</ingredient>
+            <ingredient>Oli</ingredient>
+            <ingredient>Sal</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="1"> Es pica bé la ceba i es posa a sofra poc foc, remenant-la bastant sovi </pas >
+            <pas numero="2">Quan la ceba quedi ben fosca s'hi a també picat ben fi i una bona quant </pas >
+            <pas numero="4">Quan el sofregit està ben ligat, s </pas >
+            <pas numero="5">Després s'hi tira l'aigua bullint. </pas>
+            <pas numero="6">Es deixa coure divuit minuts. </pas>
+            <pas numero="7">Quan faltin un parell de minuts, s' </pas>
+        </preparacio>
+    </recepta>
+</receptes>

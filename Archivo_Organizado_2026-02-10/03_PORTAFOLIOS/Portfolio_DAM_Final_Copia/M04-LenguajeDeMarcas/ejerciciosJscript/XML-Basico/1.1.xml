@@ -1,0 +1,25 @@
+EJEMPLO
+
+<xml:pais/>
+<día>21</dia>
+<mes>10<mes/>
+<ciudad>Barcelona</finciudad>
+<Ciudad>Barcelona</ciudad>
+<2colores>Naranja y verde</2colores>
+<_rojo>
+< Aficiones >Cine, Bailar, Nadar</ Aficiones >
+<color favorito>blanco</color favorito>
+<persona><nombre>Maria</persona></nombre>
+
+SOLUCIÓN
+
+<xml:pais/>
+<dia>21</dia>
+<mes>10</mes>
+<ciudad>Barcelona</ciudad>
+<Ciudad>Barcelona</Ciudad>
+<_2colores>Naranja y verde</_2colores>
+<color>rojo</color>
+<Aficiones>Cine, Bailar, Nadar</Aficiones>
+<colorFavorito>blanco</colorFavorito>
+<persona><nombre>Maria</nombre></persona>

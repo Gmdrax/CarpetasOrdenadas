@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio Académico | DAM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="container site-header">
+    <div class="glass-panel header-inner">
+      <h1 class="site-title">Portfolio DAM</h1>
+      <a class="github-btn" href="https://github.com/Gmdrax" target="_blank">
+        Gmdrax · GitHub
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="hero-section">
+      <h2 class="hero-title">Mis Asignaturas</h2>
+      <p class="hero-subtitle">Selecciona una categoría para ver los proyectos.</p>
+      
+      <div class="subject-grid">
+        <article class="glass-panel subject-card" onclick="filterByModule('M03', 'Programación')">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" class="subject-bg" alt="Coding">
+          <div class="subject-content">
+            <h3 class="subject-title">Programación</h3>
+            <p class="subject-desc">Java, Kotlin y Lógica (M03)</p>
+          </div>
+        </article>
+
+        <article class="glass-panel subject-card" onclick="filterByModule('M02', 'Bases de Datos')">
+          <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=600&q=80" class="subject-bg" alt="Database">
+          <div class="subject-content">
+            <h3 class="subject-title">Bases de Datos</h3>
+            <p class="subject-desc">SQL, MySQL y Diseño (M02)</p>
+          </div>
+        </article>
+
+        <article class="glass-panel subject-card" onclick="filterByModule('M04', 'Lenguaje de Marcas')">
+          <img src="https://images.unsplash.com/photo-1621839673705-6617adf9e890?auto=format&fit=crop&w=600&q=80" class="subject-bg" alt="HTML CSS">
+          <div class="subject-content">
+            <h3 class="subject-title">Lenguaje de Marcas</h3>
+            <p class="subject-desc">HTML, CSS y Web (M04)</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div class="glass-panel" style="padding: 1.5rem; margin-bottom: 2rem;">
+        <div class="controls-bar" style="margin-bottom:0;">
+          <h3 id="gridTitle" class="section-heading">Todos los Proyectos</h3>
+          <div style="display:flex; gap:1rem; align-items:center;">
+            <button onclick="filterByModule('all', 'Todos los Proyectos')" style="background:none; border:none; cursor:pointer; color:var(--link-blue); font-weight:600;">Ver Todo</button>
+            <input id="searchInput" class="search-input" type="search" placeholder="Buscar proyecto..." />
+          </div>
+        </div>
+      </div>
+
+      <div id="reposGrid" class="cards-grid">
+        </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Gmdrax - Portfolio Académico</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // DATOS DE EJEMPLO
+    const reposData = [
+      {
+        owner: "Gmdrax",
+        name: "LENGUAJE-DE-MARCAS",
+        description: "Prácticas iniciales de HTML5 y estructuración semántica.",
+        languages: ["HTML", "CSS"],
+        block: "M04"
+      },
+      {
+        owner: "Gmdrax",
+        name: "PROGRAMACION_RA1",
+        description: "Ejercicios de lógica de programación, bucles y arrays en Java/Kotlin.",
+        languages: ["Kotlin"],
+        block: "M03"
+      },
+      {
+        owner: "Gmdrax",
+        name: "gerardMaestre_Web",
+        description: "Trabajo web estático con HTML y CSS. Portfolio personal v1.",
+        languages: ["HTML", "CSS"],
+        block: "M04"
+      },
+      {
+        owner: "Gmdrax",
+        name: "IMAGINEM_Prototipo",
+        description: "Prototipo web para proyecto de diseño. Maquetación pura.",
+        languages: ["HTML"],
+        block: "M04"
+      },
+      {
+        owner: "ITEC-BCN",
+        name: "examen-3-ra2-Diseño",
+        description: "Examen práctico de Responsive Design y trabajo con JavaScript.",
+        languages: ["HTML", "JS", "CSS"],
+        block: "M09" // Esta es "otra" asignatura
+      },
+      {
+        owner: "ITEC-BCN",
+        name: "examen-2-ra1-ra3-Kotlin",
+        description: "Examen con ejercicios avanzados en Kotlin y POO.",
+        languages: ["Kotlin"],
+        block: "M03"
+      },
+      {
+        owner: "ITEC-BCN",
+        name: "ta27-procediments-SQL",
+        description: "Prácticas sobre procedimientos almacenados y triggers.",
+        languages: ["SQL"],
+        block: "M02"
+      },
+      {
+        owner: "ITEC-BCN",
+        name: "ta26-consultas-complejas",
+        description: "Ejercicios de consultas SQL complejas y Joins.",
+        languages: ["SQL"],
+        block: "M02"
+      }
+    ];
+
+    const grid = document.getElementById('reposGrid');
+    const searchInput = document.getElementById('searchInput');
+    const gridTitle = document.getElementById('gridTitle');
+    
+    // Estado actual del filtro
+    let currentModule = 'all';
+
+    // Función para obtener imágenes según la asignatura
+    function getModuleImage(block) {
+      // Imágenes de Unsplash relacionadas
+      if (block === 'M04') return 'https://images.unsplash.com/photo-1610433571933-2882c502b614?auto=format&fit=crop&w=500&q=60'; // Web
+      if (block === 'M03') return 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=500&q=60'; // Code
+      if (block === 'M02') return 'https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=500&q=60'; // Server
+      if (block === 'M09') return 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=500&q=60'; // UI Design
+      return 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=500&q=60'; // Generic
+    }
+
+    function renderRepos(list) {
+      grid.innerHTML = '';
+      
+      if (list.length === 0) {
+        grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; padding:2rem; color:#666;">No hay proyectos en esta categoría.</div>';
+        return;
+      }
+
+      list.forEach(repo => {
+        const imgSrc = getModuleImage(repo.block);
+        const repoUrl = `https://github.com/${repo.owner}/${repo.name}`;
+        
+        const card = document.createElement('article');
+        card.className = 'glass-panel repo-card';
+        card.innerHTML = `
+          <div class="repo-img-container">
+            <img src="${imgSrc}" class="repo-img" alt="Repo Image">
+          </div>
+          <div class="repo-body">
+            <h3 class="repo-title">
+              <a href="${repoUrl}" target="_blank">${repo.name}</a>
+            </h3>
+            <p class="repo-desc">${repo.description}</p>
+            <div class="repo-tags">
+              <span class="tag" style="background:rgba(0,102,204,0.1); color:#0066cc;">${repo.block}</span>
+              ${repo.languages.map(l => `<span class="tag">${l}</span>`).join('')}
+            </div>
+            <div class="repo-footer">
+              <a href="${repoUrl}" class="btn-small" target="_blank">Ver Código &rarr;</a>
+            </div>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // Función principal de filtrado
+    window.filterByModule = function(moduleCode, moduleName) {
+      currentModule = moduleCode;
+      
+      // Actualizar título
+      if(moduleName) {
+        gridTitle.textContent = `Proyectos de: ${moduleName}`;
+      } else {
+        gridTitle.textContent = "Todos los Proyectos";
+      }
+
+      // Filtrar array
+      const filtered = reposData.filter(r => {
+        const matchesModule = (moduleCode === 'all') || (r.block === moduleCode);
+        const matchesSearch = r.name.toLowerCase().includes(searchInput.value.toLowerCase());
+        return matchesModule && matchesSearch;
+      });
+      
+      renderRepos(filtered);
+
+      // Scroll suave hacia la grilla si se ha hecho click en una categoría
+      if(moduleCode !== 'all') {
+        document.querySelector('.projects-section').scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    // Listener para la barra de búsqueda
+    searchInput.addEventListener('input', () => {
+      // Mantenemos la categoría actual al buscar
+      const title = gridTitle.textContent.replace('Proyectos de: ', '');
+      filterByModule(currentModule, currentModule === 'all' ? null : title);
+    });
+
+    // Render inicial
+    renderRepos(reposData);
+
+  </script>
+</body>
+</html>

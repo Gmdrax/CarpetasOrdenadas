@@ -1,0 +1,29 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:controllers////PointingToDeclaration/-git-hub-classroom-template/controllers/index.html
+$dokka.location:controllers/Exercici2Kt///PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici2-kt/index.html
+$dokka.location:controllers/Exercici2Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/controllers/-exercici2-kt/main.html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.controllers////PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/index.html
+$dokka.location:org.example.controllers/Ejercicio_1Kt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio_1-kt/index.html
+$dokka.location:org.example.controllers/Ejercicio_1Kt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio_1-kt/main.html
+$dokka.location:org.example.controllers/Ejercicio_1Kt/nValidPerTriangle/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio_1-kt/n-valid-per-triangle.html
+$dokka.location:org.example.controllers/Ejercicio_1Kt/potFormaTriangle/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-ejercicio_1-kt/pot-forma-triangle.html
+$dokka.location:org.example.controllers/MainKt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/index.html
+$dokka.location:org.example.controllers/MainKt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-main-kt/main.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/IncrementarNumero/#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/-incrementar-numero.html
+$dokka.location:utilities/MyUtilsKt/areaTriangle/#kotlin.Int#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/area-triangle.html
+$dokka.location:utilities/MyUtilsKt/readInt/#java.util.Scanner#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/read-int.html
+controllers
+interfaces
+models
+org.example.controllers
+utilities
+

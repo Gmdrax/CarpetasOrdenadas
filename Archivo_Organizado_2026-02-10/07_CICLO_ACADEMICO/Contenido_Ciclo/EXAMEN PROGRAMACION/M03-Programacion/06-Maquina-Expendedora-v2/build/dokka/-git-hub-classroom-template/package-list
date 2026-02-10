@@ -1,0 +1,48 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:interfaces////PointingToDeclaration/-git-hub-classroom-template/interfaces/index.html
+$dokka.location:interfaces/MyInterface///PointingToDeclaration/-git-hub-classroom-template/interfaces/-my-interface/index.html
+$dokka.location:models////PointingToDeclaration/-git-hub-classroom-template/models/index.html
+$dokka.location:models/MyModel///PointingToDeclaration/-git-hub-classroom-template/models/-my-model/index.html
+$dokka.location:models/MyModel/MyModel/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/-my-model.html
+$dokka.location:models/MyModel/function/#/PointingToDeclaration/-git-hub-classroom-template/models/-my-model/function.html
+$dokka.location:org.example.controllers////PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/index.html
+$dokka.location:org.example.controllers/DadesBitllet///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/index.html
+$dokka.location:org.example.controllers/DadesBitllet/DadesBitllet/#kotlin.String#kotlin.Int#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/-dades-bitllet.html
+$dokka.location:org.example.controllers/DadesBitllet/getNom/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/get-nom.html
+$dokka.location:org.example.controllers/DadesBitllet/getPreu/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/get-preu.html
+$dokka.location:org.example.controllers/DadesBitllet/getZona/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/get-zona.html
+$dokka.location:org.example.controllers/DadesBitllet/setNom/#kotlin.String/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/set-nom.html
+$dokka.location:org.example.controllers/DadesBitllet/setPreu/#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/set-preu.html
+$dokka.location:org.example.controllers/DadesBitllet/setZona/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-dades-bitllet/set-zona.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt///PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/index.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/afegirBitllet/#java.util.Scanner#kotlin.Array[org.example.controllers.DadesBitllet?]#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/afegir-bitllet.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/calcularPreuBitllet/#kotlin.Int#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/calcular-preu-bitllet.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/formatarDosDecimals/#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/formatar-dos-decimals.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/gestionarClient/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/gestionar-client.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/gestionarEntradaDiners/#java.util.Scanner#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/gestionar-entrada-diners.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/imprimirTiquetFinal/#java.util.Scanner#kotlin.Array[org.example.controllers.DadesBitllet?]#kotlin.Int#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/imprimir-tiquet-final.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/iniciarMaquina/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/iniciar-maquina.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/llegirEnterSegur/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/llegir-enter-segur.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/main/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/main.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/mostrarDetallSeleccio/#kotlin.String#kotlin.Int#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/mostrar-detall-seleccio.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/mostrarEstatCompte/#kotlin.Double#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/mostrar-estat-compte.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/mostrarMenuOpcions/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/mostrar-menu-opcions.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/obrirScanner/#/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/obrir-scanner.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/obtenirNomBitllet/#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/obtenir-nom-bitllet.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/preguntarSiNo/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/preguntar-si-no.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/processarPagament/#java.util.Scanner#kotlin.Array[org.example.controllers.DadesBitllet?]#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/processar-pagament.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/retornarCanvi/#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/retornar-canvi.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/solicitarZona/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/solicitar-zona.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/sumarPreusCistella/#kotlin.Array[org.example.controllers.DadesBitllet?]#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/sumar-preus-cistella.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/tancarScanner/#java.util.Scanner/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/tancar-scanner.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/validarMoneda/#kotlin.Double/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/validar-moneda.html
+$dokka.location:org.example.controllers/MquiniaDeBilletesKt/verificarFiSeleccio/#java.util.Scanner#kotlin.Int/PointingToDeclaration/-git-hub-classroom-template/org.example.controllers/-mquinia-de-billetes-kt/verificar-fi-seleccio.html
+$dokka.location:utilities////PointingToDeclaration/-git-hub-classroom-template/utilities/index.html
+$dokka.location:utilities/MyUtilsKt///PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/index.html
+$dokka.location:utilities/MyUtilsKt/readSomething/#/PointingToDeclaration/-git-hub-classroom-template/utilities/-my-utils-kt/read-something.html
+interfaces
+models
+org.example.controllers
+utilities
+

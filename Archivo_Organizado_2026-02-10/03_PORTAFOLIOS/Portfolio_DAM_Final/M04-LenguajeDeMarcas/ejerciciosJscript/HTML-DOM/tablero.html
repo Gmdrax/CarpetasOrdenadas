@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Teclado númerico</title>
+</head>
+<style>
+    .tecla{
+        width: 50px;
+        height: 50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        
+        font-size: 20px;
+        background-color: #ccc;
+        border: 1px black;
+    }
+</style>
+<body>
+    <h1 id="titulo">Ejercicio 1 - Teclado númerico</h1>
+    <div id="contenedor">
+          
+    </div>
+   
+    <script>
+          
+        const contenedor = document.getElementById('contenedor');
+
+            contenedor.style.display = "flex";
+            contenedor.style.flexWrap = "wrap";
+            contenedor.style.gap = "10px";
+            contenedor.style.maxWidth = "400px";
+
+            //función para crear teclas
+            function crearTecla(texto, colorFondo = 'teal') {
+                let tecla = document.createElement('div');
+                tecla.textContent = texto;
+                
+                //estilos básicos de la tecla 
+                tecla.style.width = "50px";
+                tecla.style.height = "50px";
+                tecla.style.display = "flex";
+                tecla.style.justifyContent = "center";
+                tecla.style.alignItems = "center";
+                tecla.style.color = "white";
+                tecla.style.fontSize = "20px";
+                tecla.style.fontFamily = "Arial";
+                tecla.style.backgroundColor = colorFondo;
+                tecla.style.border = "1px solid #ccc";
+                
+                return tecla;
+            }
+
+            
+            for (let i = 1; i <= 9; i++) {
+                let color = "#008080";
+
+                if (i % 2 === 0) { 
+                    color = "#0000FF";
+                }
+
+                if (i % 3 === 0) {
+                    color = "#FFFF00"; 
+                }
+                
+                let teclaNumero = crearTecla(i, color);
+                
+        
+                if (color === "#FFFF00") teclaNumero.style.color = "black";
+
+                contenedor.appendChild(teclaNumero);
+            }
+
+            let separador = document.createElement('div');
+            separador.style.width = "100%";
+            separador.style.height = "20px";
+            contenedor.appendChild(separador);
+
+            const vocales = ['A', 'E', 'I', 'O', 'U'];
+
+            for (let i = 65; i <= 90; i++) {
+                let letra = String.fromCharCode(i); 
+                let color = "orange"; 
+                
+               
+                if (vocales.includes(letra)) {
+                    color = "green"; 
+                }
+
+                let teclaLetra = crearTecla(letra, color);
+                contenedor.appendChild(teclaLetra);
+            }
+    </script>
+ </body>
+</html>
